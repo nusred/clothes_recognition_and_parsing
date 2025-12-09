@@ -36,8 +36,8 @@ from selenium.webdriver.common.keys import Keys
 
 
 # ================== НАСТРОЙКИ МОДЕЛИ ==================
-MODEL_PATH = "C:\\study\\МАИ\магистратура\\1 курс\\1 сем\\Управление it проектами\\clothing_multitask_mobilenetv2.keras"  
-IMG_SIZE = (224, 224)  # размер входа модели, при необходимости поменяй
+MODEL_PATH = "path_to_app.py\\clothing_multitask_mobilenetv2.keras"  
+IMG_SIZE = (224, 224)  
 
 TYPE_CLASSES = ['hoodie', 'jacket', 'jeans', 'pants', 'sandals',
                 'shirt', 'shorts', 'sneakers', 'sweater', 'tshirt']
@@ -691,3 +691,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
